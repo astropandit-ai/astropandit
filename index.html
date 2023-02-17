@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Virtual Pandit Assistant</title>
+    <style>
+      /* Add CSS styles for your page here */
+      body {
+        background-color: #f2f2f2;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+      .title {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-family: 'Baloo Thambi 2', cursive;
+      }
+      .subtitle {
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-family: 'Baloo Thambi 2', cursive;
+      }
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 10px;
+        margin-right: 10px;
+        background-color: #b79b7c;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 18px;
+        font-family: 'Baloo Thambi 2', cursive;
+        cursor: pointer;
+      }
+      .button:hover {
+        background-color: #8c725b;
+      }
+      .input {
+        display: block;
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 100%;
+        box-sizing: border-box;
+        font-family: 'Baloo Thambi 2', cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Virtual Pandit Assistant</h1>
+      <p class="subtitle">How may I assist you today?</p>
+      <button class="button" id="puja">Perform Puja</button>
+      <button class="button" id="info">Information</button>
+      <button class="button" id="horoscope">Daily Horoscope</button>
+      <input class="input" type="text" placeholder="Ask a question or enter a topic...">
+    </div>
+  </body>
+</html>
